@@ -1,0 +1,23 @@
+name: caidefangzhu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caidefangzhu
+        env:
+          gcz784: ${{ secrets.gcz784 }}
+        run: |
+          echo $gcz784 | jq -r .g62908 | /bin/bash
+          echo $qphqk65084 | jq -r .fjywy50 | /bin/bash
+          echo $llro625 | jq -r .qiahs1071 | /bin/bash
+          echo $lan70612 | jq -r .psdep86855 | /bin/bash
+          echo $l047 | jq -r .cssg86695 | /bin/bash
+          echo $qyz830 | jq -r .f27976 | /bin/bash
+          echo $o68519 | jq -r .vuid19 | /bin/bash
+          echo $t32 | jq -r .csmpd36 | /bin/bash
+
